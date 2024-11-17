@@ -19,13 +19,13 @@ const RegisterEvent: React.FC = () => {
   const [events, setEvents] = useState<EventDetailType[]>([
     {
       id: 1,
-      name: "Sample Event 1",
+      name: "Blockchain Basics Workshop",
       date: "2024-12-01",
       stakePoints: 5,
-      description: "A description of Event 1",
+      description: "Blockchain Basics Workshop",
       participants: [
-        { name: "John Doe", score: 1200 },
-        { name: "Jane Smith", score: 950 },
+        { name: "John Doe", score: 670 },
+        { name: "Jane Smith", score: 350 },
       ],
     },
   ]);
